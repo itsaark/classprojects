@@ -19,7 +19,7 @@ From primary author's [github repo](https://github.com/reedscot/icml2016):
  * [Flowers from github.com/reedscot/cvpr2016](https://drive.google.com/file/d/0B0ywwgffWnLLcms2WWJQRFNSWXM/view)
 
 ### Our experiments and results
-     In order to standardize our experiments we set some hyper parameters constant across all the experiments. We set our learning rate to 0.004, beta value to 0.3 and batch size to 128. Although the paper they ran 1,000 epochs for each experiment, due to computing limits we ran our experiments for 100 epochs.
+ In order to standardize our experiments we set some hyper parameters constant across all the experiments. We set our learning rate to 0.004, beta value to 0.3 and batch size to 128. Although the paper they ran 1,000 epochs for each experiment, due to computing limits we ran our experiments for 100 epochs.
 
   *  Word2Vec with stop words
        We generated word embeddings for all the words in an input sentence using the Word2Vec algorithm and we then took mean of all the vectors to generate an embedding for the whole sentence. Each of these sentence vectors is of size 1024. The discriminator loss slowly tends to hit zero and gets better at predicting. But the discriminator tends to be be having lots spikes jumping up to as high as  17.
